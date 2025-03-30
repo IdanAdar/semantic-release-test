@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/IdanAdar/semantic-release-test/compare/v1.0.1...v1.0.2) (2025-03-30)
+
+
+### Bug Fixes
+
+* multiple provider fixes ([#4](https://github.com/IdanAdar/semantic-release-test/issues/4)) ([4a7709b](https://github.com/IdanAdar/semantic-release-test/commit/4a7709b31c82b285ea8c049ca510f6a68b68b5ab))
+
 ## [1.0.1](https://github.com/IdanAdar/semantic-release-test/compare/v1.0.0...v1.0.1) (2025-03-30)
 
 
