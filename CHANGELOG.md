@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/IdanAdar/semantic-release-test/compare/v1.1.0...v1.2.0) (2025-03-30)
+
+
+### Bug Fixes
+
+* Update foo ([02f796e](https://github.com/IdanAdar/semantic-release-test/commit/02f796ead878e111bd83541882be98b3c15cb950))
+* Update test ([5d35ea3](https://github.com/IdanAdar/semantic-release-test/commit/5d35ea39847c6077e4ca04af47794614505be6aa))
+
+
+### Features
+
+* Create bar ([c9551cf](https://github.com/IdanAdar/semantic-release-test/commit/c9551cf7c8062bfdbf0a33a5b1f77cd9041cc48a))
+
 # [1.1.0](https://github.com/IdanAdar/semantic-release-test/compare/v1.0.2...v1.1.0) (2025-03-30)
 
 
