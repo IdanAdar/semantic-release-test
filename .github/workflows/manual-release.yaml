@@ -1,14 +1,13 @@
-  - name: Create Empty Commit
-  # You may pin to the exact commit or the version.
-  # uses: velocibear/create-empty-commit@aaac128f64db83e666f5e075e7633be27eecf96d
-  uses: velocibear/create-empty-commit@v1.0.0
-  with:
-    # Github Token
-    token:  ${{ secrets.token }}
-    # Github Commit Message
-    message: # default is Empty Commit
-    # Author Email
-    email: secrets.automation.dev@il.ibm.com
-    # Author Name
-    name: Secrets Automation Dev
-          
+name: Create manual release
+on:
+  pull_request:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: PauMAVA/pull-request-empty-commit-action@v1.0.4
+        with:
+          github_token: ${{ secrets.token }}
+          message: 'The commit message'
+          name: 'Secrets Manager automation'
+          email: 'secrets.automation.dev@il.ibm.com'
