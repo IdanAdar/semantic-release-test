@@ -1,6 +1,6 @@
 name: Create manual release
 on:
-  pull_request:
+  repository_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
