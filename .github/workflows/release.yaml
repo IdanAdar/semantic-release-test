@@ -18,4 +18,4 @@ jobs:
       - name: Semantic Release
         uses: huggingface/semver-release-action@latest
         env:
-          GH_TOKEN: ${{ secrets.token }}
+          GITHUB_TOKEN: ${{ secrets.token }}
